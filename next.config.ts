@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
-  output: "export", // Enables static HTML export
-  basePath: "/Lalahouse", // Matches your GitHub repo name
-  images: {
-    unoptimized: true, // Required for static export on GitHub Pages
-  },
+  output: "export",
+  basePath: isGitHubPages ? "/lalahouse" : "",
+  assetPrefix: isGitHubPages ? "/lalahouse/" : "",
 };
 
 export default nextConfig;

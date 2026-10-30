@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --color-ivory: #F8F5EF;
+  --color-braj-green: #23483D;
+  --color-saffron: #C48A45;
+  --color-charcoal: #292B28;
+  --color-soft-border: #E6E0D6;
+}
+
+body {
+  background-color: #F8F5EF;
+  color: #292B28;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}

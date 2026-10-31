@@ -1,5 +1,5 @@
 import RoomCard from "@/components/RoomCard";
-import { roomsData } from "@/data/rooms";
+import { roomsData, Room } from "@/data/rooms";
 import { propertyConfig } from "@/data/property";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
@@ -9,13 +9,13 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <span className="text-xs uppercase tracking-widest font-semibold text-[#C48A45] block mb-3">
-            LALA JI GUEST HOUSE · {propertyConfig.tagline}
+            {propertyConfig.name} · {propertyConfig.tagline}
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-[#23483D] leading-tight mb-6">
             Plan Your Stay in Vrindavan
           </h1>
           <p className="text-base sm:text-lg text-[#292B28]/80 mb-8 leading-relaxed">
-            Looking for accommodation for your Vrindavan visit? Explore double, triple and family room options at Lala ji guest house. Contact us directly to ask about availability, room rates and your preferred dates.
+            Looking for accommodation for your Vrindavan visit? Explore double, triple and family room options at {propertyConfig.name}. Contact us directly to ask about availability, room rates and your preferred dates.
           </p>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-8">
             <a
@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {roomsData.map((room) => (
+            {roomsData.map((room: Room) => (
               <RoomCard key={room.id} room={room} />
             ))}
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
         <div className="bg-white p-8 rounded-xl border border-[#E6E0D6] shadow-sm">
           <h3 className="font-serif text-2xl font-bold text-[#23483D] mb-4">Visit Vrindavan</h3>
           <p className="text-sm text-[#292B28]/80 mb-4">
-            Located in Vidhyapeeth, Vrindavan, Lala ji guest house provides a comfortable base for visitors traveling to Banke Bihari Temple and other holy sites across Braj.
+            Located in Vidhyapeeth, Vrindavan, {propertyConfig.name} provides a comfortable base for visitors traveling to Banke Bihari Temple and other holy sites across Braj.
           </p>
           <p className="text-xs text-[#C48A45] font-semibold">Contact us for verified directions and travel guidance.</p>
         </div>

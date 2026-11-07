@@ -13,11 +13,11 @@ export default function RoomCard({ room }: RoomCardProps) {
     <div className="bg-white rounded-xl border border-[#E6E0D6] overflow-hidden shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
       <div>
         <div className="h-56 bg-[#E6E0D6] relative flex items-center justify-center text-[#292B28]/40">
-          <span className="text-sm font-medium">[ {room.name} Photograph ]</span>
+          <img src={room.image} alt={room.name} className="w-full h-full object-cover" />
         </div>
         <div className="p-6">
           <div className="flex items-center justify-between mb-2">
-            <img src="shridouble.webp" alt={room.name} className="w-12 h-12 object-cover rounded-full" />
+            <img src={room.image} alt={room.name} className="w-12 h-12 object-cover rounded-full" />
             <h3 className="font-serif text-xl font-bold text-[#23483D]">{room.name}</h3>
             <span className="text-xs bg-[#F8F5EF] text-[#292B28] px-2.5 py-1 rounded-full border border-[#E6E0D6]">
               {room.occupancy}

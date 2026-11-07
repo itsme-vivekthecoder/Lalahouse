@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy | Lala ji guest house",
+  title: "Privacy Policy | Shri ji seva sadan",
 };
 
 export default function PrivacyPolicyPage() {
@@ -10,7 +10,7 @@ export default function PrivacyPolicyPage() {
       </h1>
       <div className="bg-white p-8 rounded-xl border border-[#E6E0D6] shadow-sm space-y-4 text-sm sm:text-base text-[#292B28]/80 leading-relaxed">
         <p>
-          At Lala ji guest house, we respect your privacy. When you contact us via WhatsApp or phone, we collect only the necessary information required to process your enquiry and facilitate your stay (such as dates and guest count).
+          At Shri ji seva sadan, we respect your privacy. When you contact us via WhatsApp or phone, we collect only the necessary information required to process your enquiry and facilitate your stay (such as dates and guest count).
         </p>
         <p>
           We do not share your personal details with third parties. For any privacy-related queries, please contact us directly.

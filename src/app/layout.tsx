@@ -18,8 +18,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lala ji guest house in Vidhyapeeth, Vrindavan",
-  description: "Explore double, triple and family room options at Lala ji guest house in Vidhyapeeth, Vrindavan. Enquire directly about room rates and availability.",
+  title: "Shri ji seva sadan in chaitanya vihar face-2, Vrindavan",
+  description: "Explore double, triple and family room options at Shri ji seva sadan in chaitanya vihar face-2, Vrindavan. Enquire directly about room rates and availability.",
 };
 
 export default function RootLayout({

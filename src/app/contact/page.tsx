@@ -2,8 +2,8 @@ import { propertyConfig } from "@/data/property";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export const metadata = {
-  title: "Contact Lala ji guest house, Vrindavan",
-  description: "Contact Lala ji guest house in Vidhyapeeth, Vrindavan, to ask about room rates, availability and accommodation options.",
+  title: "Contact " + propertyConfig.name + ", Vrindavan",
+  description: "Contact " + propertyConfig.name + " in " + propertyConfig.tagline + ", Vrindavan, to ask about room rates, availability and accommodation options.",
 };
 
 export default function ContactPage() {
@@ -11,7 +11,7 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
       <div className="mb-12">
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#23483D] mb-3">
-          Contact Lala ji guest house
+          Contact {propertyConfig.name}
         </h1>
         <p className="text-sm sm:text-base text-[#292B28]/80">
           Planning a visit to Vrindavan? Call or message us to enquire about room availability, prices, occupancy and your preferred dates.

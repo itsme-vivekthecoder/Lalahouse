@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className="h-80 sm:h-96 lg:h-[450px] bg-[#E6E0D6] rounded-2xl flex items-center justify-center text-[#292B28]/40 border border-[#E6E0D6] shadow-sm">
-          <span className="text-sm font-medium">[ Real Property / Room Photograph ]</span>
+          <span className="text-sm font-medium"><img src="/workspaces/Lalahouse/public/images/shrigate.webp"></span>
         </div>
       </section>
 

@@ -2,8 +2,8 @@ import RoomCard from "@/components/RoomCard";
 import { roomsData } from "@/data/rooms";
 
 export const metadata = {
-  title: "Rooms at Lala ji guest house, Vrindavan",
-  description: "Explore double, triple and family room options at Lala ji guest house in Vidhyapeeth, Vrindavan. Ask about AC and non-AC availability and current rates.",
+  title: "Rooms at Shri ji seva sadan, Vrindavan",
+  description: "Explore double, triple and family room options at Shri ji seva sadan in chaitanya vihar face-2, Vrindavan. Ask about AC and non-AC availability and current rates.",
 };
 
 export default function RoomsPage() {
@@ -14,7 +14,7 @@ export default function RoomsPage() {
           Explore Our Room Options
         </h1>
         <p className="text-sm sm:text-base text-[#292B28]/80">
-          Choose the room type that best suits your group. Lala ji guest house has double, triple and family room options. Confirm availability and allocation with us before arrival.
+          Choose the room type that best suits your group. Shri ji seva sadan has double, triple and family room options. Confirm availability and allocation with us before arrival.
         </p>
       </div>
 

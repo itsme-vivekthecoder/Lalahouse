@@ -1,9 +1,9 @@
 export const propertyConfig = {
-  name: "Lala ji guest House",
-  tagline: "Vidhyapeeth, Vrindavan",
-  address: "Vidhyapeeth, Vrindavan, Uttar Pradesh, 281121",
-  phone: "9690504051",
-  whatsappNumber: "919690504051",
+  name: "shri ji seva sadan",
+  tagline: "chaitanya vihar face-2, Vrindavan",
+  address: "chaitanya vihar face-2, Vrindavan, Uttar Pradesh, 281121",
+  phone: "7300668411",
+  whatsappNumber: "7300668411",
   checkInTime: "12:00 PM",
   checkOutTime: "10:00 AM",
 };

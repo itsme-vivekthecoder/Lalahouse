@@ -1,8 +1,8 @@
 import { propertyConfig } from "@/data/property";
 
 export const metadata = {
-  title: "Shanti Guest House Location, Vidhyapeeth, Vrindavan",
-  description: "Find the location of Shanti Guest House in Vidhyapeeth, Vrindavan. Ask for directions and information for your visit to Banke Bihari Temple.",
+  title: "Shri ji seva sadan, Vrindavan",
+  description: "Find the location of Shri ji seva sadan in chaitanya vihar face-2, Vrindavan. Ask for directions and information for your visit to Banke Bihari Temple.",
 };
 
 export default function LocationPage() {
@@ -13,7 +13,7 @@ export default function LocationPage() {
           Find Us in Vrindavan
         </h1>
         <p className="text-sm sm:text-base text-[#292B28]/80">
-          Shanti Guest House is located in Vidhyapeeth, Vrindavan, Uttar Pradesh. Contact us directly for verified directions and route guidance.
+          {propertyConfig.name} is located in {propertyConfig.tagline}, Uttar Pradesh. Contact us directly for verified directions and route guidance.
         </p>
       </div>
 

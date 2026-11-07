@@ -1,5 +1,6 @@
 import { Room } from "@/data/rooms";
 import { getWhatsAppLink } from "@/lib/whatsapp";
+import  image  from "next/image";
 
 interface RoomCardProps {
   room: Room;
@@ -16,6 +17,7 @@ export default function RoomCard({ room }: RoomCardProps) {
         </div>
         <div className="p-6">
           <div className="flex items-center justify-between mb-2">
+            <img src="shridouble.webp" alt={room.name} className="w-12 h-12 object-cover rounded-full" />
             <h3 className="font-serif text-xl font-bold text-[#23483D]">{room.name}</h3>
             <span className="text-xs bg-[#F8F5EF] text-[#292B28] px-2.5 py-1 rounded-full border border-[#E6E0D6]">
               {room.occupancy}

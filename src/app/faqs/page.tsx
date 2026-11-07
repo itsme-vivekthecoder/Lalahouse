@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Frequently Asked Questions | Lala ji guest house",
-  description: "Find answers to common questions about room options, prices, availability and contacting Lala ji guest house in Vrindavan.",
+  title: "Frequently Asked Questions | Shri ji seva sadan",
+  description: "Find answers to common questions about room options, prices, availability and contacting Shri ji seva sadan in Vrindavan.",
 };
 
 export default function FaqsPage() {
@@ -19,7 +19,7 @@ export default function FaqsPage() {
           Frequently Asked Questions
         </h1>
         <p className="text-sm sm:text-base text-[#292B28]/80">
-          Find answers to common questions regarding stays at Lala ji guest house.
+          Find answers to common questions regarding stays at Shri ji seva sadan.
         </p>
       </div>
 

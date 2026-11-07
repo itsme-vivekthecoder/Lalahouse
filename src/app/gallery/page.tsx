@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Photos of Lala ji guest house, Vrindavan",
-  description: "View photographs of Lala ji guest house in Vidhyapeeth, Vrindavan. Contact the property to confirm room details and availability.",
+  title: "Gallery | Shri ji seva sadan",
+  description: "View photographs of Shri ji seva sadan in chaitanya vihar face-2, Vrindavan. Contact the property to confirm room details and availability.",
 };
 
 export default function GalleryPage() {
@@ -10,7 +10,7 @@ export default function GalleryPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
       <div className="max-w-2xl mb-12">
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#23483D] mb-3">
-          A Look Inside Lala ji guest house
+          A Look Inside Shri ji seva sadan
         </h1>
         <p className="text-sm sm:text-base text-[#292B28]/80">
           Browse photographs of our rooms and property spaces to help plan your stay. For the most suitable room and current availability, please contact us directly.

@@ -2,6 +2,7 @@ export interface Room {
   id: string;
   name: string;
   slug: string;
+  image: string;
   shortDescription: string;
   description: string;
   occupancy: string;
@@ -18,6 +19,7 @@ export const roomsData: Room[] = [
     description: "Our double rooms offer a quiet, clean, and restful space for pilgrims and visitors. Equipped with comfortable bedding and essential amenities for a peaceful stay in Vrindavan.",
     occupancy: "2 Guests",
     bedType: "1 Double Bed",
+    image: "/images/shridoubleroom.webp",
     features: ["AC / Non-AC options available", "Attached private bathroom", "Clean linen and towels provided", "Wardrobe storage"]
   },
   {
@@ -28,6 +30,7 @@ export const roomsData: Room[] = [
     description: "Designed with extra room space, our triple rooms comfortably accommodate three guests without feeling crowded. Perfect for small families visiting Braj together.",
     occupancy: "3 Guests",
     bedType: "1 Double Bed + 1 Single Bed",
+    image: "/images/shri4.webp",
     features: ["AC / Non-AC options available", "Attached private bathroom", "Spacious layout", "Natural light"]
   },
   {
@@ -38,6 +41,7 @@ export const roomsData: Room[] = [
     description: "Our family room provides generous space to keep everyone together under one roof. Clean, practical, and welcoming for family yatras to Vrindavan.",
     occupancy: "4-5 Guests",
     bedType: "Multiple Beds / Custom Configuration",
+    image: "/images/shri6.webp",
     features: ["AC / Non-AC options available", "Large attached private bathroom", "Ample luggage space", "Quiet environment"]
   }
 ];

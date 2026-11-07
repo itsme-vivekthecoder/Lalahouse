@@ -17,7 +17,7 @@ export function getWhatsAppLink(params?: EnquiryParams): string {
     acPreference = "AC / Non-AC / Either"
   } = params || {};
 
-  const message = `Namaste Lala ji guest house, I am planning a visit to Vrindavan. Please share the room availability and rates for my stay.
+  const message = `Namaste ${propertyConfig.name}, I am planning a visit to Vrindavan. Please share the room availability and rates for my stay.
 
 Check-in: ${checkIn}
 Check-out: ${checkOut}

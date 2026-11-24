@@ -19,7 +19,7 @@ export const roomsData: Room[] = [
     description: "Our double rooms offer a quiet, clean, and restful space for pilgrims and visitors.",
     occupancy: "2 Guests",
     bedType: "1 Double Bed",
-    image: "/images/photo7.jpg",
+    image: "/images/double-room.jpg",
     features: ["AC / Non-AC options available", "Attached bathroom", "Clean linen and towels"]
   },
   {
@@ -30,7 +30,7 @@ export const roomsData: Room[] = [
     description: "Designed with extra space, our triple rooms comfortably accommodate three guests.",
     occupancy: "3 Guests",
     bedType: "1 Double Bed + 1 Single Bed",
-    image: "/images/photo3.jpg",
+    image: "/images/triple-room.jpg",
     features: ["AC / Non-AC options available", "Attached bathroom", "Spacious layout"]
   },
   {
@@ -41,7 +41,7 @@ export const roomsData: Room[] = [
     description: "Our family room provides generous space to keep everyone together under one roof.",
     occupancy: "4-5 Guests",
     bedType: "Multiple Beds",
-    image: "/images/photo6.jpg",
+    image: "/images/family-room.jpg",
     features: ["AC / Non-AC options available", "Large attached bathroom", "Quiet environment"]
   }
 ];

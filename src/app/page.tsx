@@ -1,3 +1,4 @@
+import Image from "next/image";
 import RoomCard from "@/components/RoomCard";
 import { roomsData, Room } from "@/data/rooms";
 import { propertyConfig } from "@/data/property";
@@ -49,8 +50,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-80 sm:h-96 lg:h-[450px] bg-[#E6E0D6] rounded-2xl flex items-center justify-center text-[#292B28]/40 border border-[#E6E0D6] shadow-sm">
-          <span className="text-sm font-medium"><img src="/workspaces/Lalahouse/public/images/shrigate.webp"></span>
+        <div className="h-80 sm:h-96 lg:h-[450px] bg-[#E6E0D6] rounded-2xl border border-[#E6E0D6] shadow-sm relative overflow-hidden">
+          <Image
+            src="/images/maingate.jpg"
+            alt="Guest house room interior"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
       </section>
 

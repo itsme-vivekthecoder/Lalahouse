@@ -2,11 +2,11 @@ export interface Room {
   id: string;
   name: string;
   slug: string;
-  image: string;
   shortDescription: string;
   description: string;
   occupancy: string;
   bedType: string;
+  image: string;
   features: string[];
 }
 
@@ -16,32 +16,32 @@ export const roomsData: Room[] = [
     name: "Double Room",
     slug: "double-room",
     shortDescription: "Comfortable private room ideal for couples or two travelers.",
-    description: "Our double rooms offer a quiet, clean, and restful space for pilgrims and visitors. Equipped with comfortable bedding and essential amenities for a peaceful stay in Vrindavan.",
+    description: "Our double rooms offer a quiet, clean, and restful space for pilgrims and visitors.",
     occupancy: "2 Guests",
     bedType: "1 Double Bed",
-    image: "/images/shridoubleroom.webp",
-    features: ["AC / Non-AC options available", "Attached private bathroom", "Clean linen and towels provided", "Wardrobe storage"]
+    image: "/images/photo7.jpg",
+    features: ["AC / Non-AC options available", "Attached bathroom", "Clean linen and towels"]
   },
   {
     id: "triple",
     name: "Triple Room",
     slug: "triple-room",
     shortDescription: "Spacious room designed for small families or groups of three.",
-    description: "Designed with extra room space, our triple rooms comfortably accommodate three guests without feeling crowded. Perfect for small families visiting Braj together.",
+    description: "Designed with extra space, our triple rooms comfortably accommodate three guests.",
     occupancy: "3 Guests",
     bedType: "1 Double Bed + 1 Single Bed",
-    image: "/images/shri4.webp",
-    features: ["AC / Non-AC options available", "Attached private bathroom", "Spacious layout", "Natural light"]
+    image: "/images/photo3.jpg",
+    features: ["AC / Non-AC options available", "Attached bathroom", "Spacious layout"]
   },
   {
     id: "family",
     name: "Family Room",
     slug: "family-room",
     shortDescription: "Large, flexible accommodation for families and groups.",
-    description: "Our family room provides generous space to keep everyone together under one roof. Clean, practical, and welcoming for family yatras to Vrindavan.",
+    description: "Our family room provides generous space to keep everyone together under one roof.",
     occupancy: "4-5 Guests",
-    bedType: "Multiple Beds / Custom Configuration",
-    image: "/images/shri6.webp",
-    features: ["AC / Non-AC options available", "Large attached private bathroom", "Ample luggage space", "Quiet environment"]
+    bedType: "Multiple Beds",
+    image: "/images/photo6.jpg",
+    features: ["AC / Non-AC options available", "Large attached bathroom", "Quiet environment"]
   }
 ];
